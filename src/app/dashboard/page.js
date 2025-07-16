@@ -13,8 +13,7 @@ export default async function Dashboard() {
     
     return (
            <div>
-          <h1>Welcome {user?.name}</h1>
-          <p>EMail: {user?.email}</p>
+           <p> Welcome </p>
         </div>
     )
 }
