@@ -7,7 +7,7 @@ export default async function Dashboard() {
     return <p>Unauthorized. No token found.</p>;
   }
 
-  const res = await fetch(`https://nextjsprojectnew-j3vm.vercel.app/api/profile`, {
+  const res = await fetch(`http://nextjsprojectnew-j3vm-b3tkhbun8-nharshwardhans-projects.vercel.app/api/profile`, {
     headers: {
       Cookie: `token=${token}`,
     },
