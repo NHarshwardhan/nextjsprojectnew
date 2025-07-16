@@ -22,8 +22,8 @@ export default async function Dashboard() {
 
   return (
     <div>
-      <h1 >Welcome, {user.name} </h1>
-      <p>Email: {user.email}</p>
+      <h1 >Welcome, {user ?user.name: 'Default'} </h1>
+      <p>Email: {user?user.email: 'default'}</p>
     </div>
   );
 }
