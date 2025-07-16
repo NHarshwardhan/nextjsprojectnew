@@ -9,7 +9,7 @@ export default async function Dashboard() {
 
   const res = await fetch(`http://nextjsprojectnew-j3vm-b3tkhbun8-nharshwardhans-projects.vercel.app/api/profile`, {
     headers: {
-      Cookie: `token=${token}`,
+      Cookie: `token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJqb2huQGdtYWlsLmNvbSIsImlhdCI6MTc1MjY1Njc0NCwiZXhwIjoxNzUyNjYwMzQ0fQ.FW3GpJsdv_3Av2OpnBvzeXvxb40ubcmKA93BxfZY_-c;`,
     },
     cache: 'no-store',
   });
